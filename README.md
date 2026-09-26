@@ -133,25 +133,55 @@ windows-server-security-labs/
 | Block Web (UDP) | Outbound | Block QUIC/HTTP3 from DC |
 
 ---
-
 ## 🧰 Tools & Technologies
 
-`Windows Server` · `Active Directory` · `Group Policy` · `AD CS` · `Hyper-V` · `IIS` · `DNS` · `Windows Defender Firewall` · `NPS / RADIUS` · `802.1X` · `EFS` · `SMB` · `Cisco Packet Tracer` · `Azure` · `IPsec VPN` · `FortiGate` (concepts only) · `VLANs` · `ACLs` · `RSTP` · `LACP`
+**Windows & Infrastructure**
+- Windows Server
+- Active Directory
+- Group Policy
+- AD CS / PKI
+- Hyper-V
+- IIS
+- DNS
+- Windows Defender Firewall
+- NPS / RADIUS
+- 802.1X
+
+**Security**
+- EFS
+- SMB
+- File system auditing
+- Certificate-based authentication
+
+**Networking**
+- Cisco Packet Tracer
+- VLANs
+- ACLs
+- RSTP
+- LACP
+- IPsec VPN
+
+**Azure / Cloud**
+- Microsoft Azure
+- User Defined Routes (UDR)
+- Azure Firewall
+- Network Security Groups (NSG)
+- FortiGate — concepts only
 
 ---
 
-## 💡 What I Learned
+## 💡 Key Skills Demonstrated
 
-- Applying least privilege through delegation instead of over-granting admin rights
-- Designing layered security using GPO, firewall rules, NTFS permissions, and auditing together
-- Building and managing an Enterprise Certificate Authority with auto-enrollment
-- Understanding how share and NTFS permissions interact — and why the most restrictive wins
-- Hardening Windows defaults (LLMNR, NetBIOS, cached logins, USB, SMB signing)
-- Restricting RDP access to specific source IPs and blocking outbound web traffic on servers
-- Setting up WPA2-Enterprise Wi-Fi with RADIUS and NPS
-- Designing a site-to-site IPsec VPN between on-prem and Azure
-- Segmenting networks with VLANs and controlling traffic with ACLs
-- Comparing switching protocols like RSTP and LACP in real topologies
+- Administering Windows Server environments with Active Directory and DNS
+- Applying least-privilege principles through delegation and Group Policy
+- Implementing security hardening with GPO, Windows Firewall, auditing, and access controls
+- Deploying an Enterprise Certificate Authority and configuring certificate auto-enrollment
+- Managing file and folder security using share permissions, NTFS permissions, auditing, and EFS
+- Configuring NPS/RADIUS and 802.1X for enterprise wireless authentication
+- Designing network segmentation using VLANs, trunks, and ACLs
+- Configuring and troubleshooting site-to-site IPsec VPN concepts between on-premises and Azure
+- Understanding Azure networking components including UDRs, Azure Firewall, and NSGs
+- Comparing RSTP and LACP and understanding their roles in enterprise switching
 
 ---
 
