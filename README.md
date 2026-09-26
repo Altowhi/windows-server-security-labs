@@ -1,6 +1,5 @@
 # Windows Server Security Labs
-
-Hands-on Windows Server administration and security labs completed as part of the **Cloud and Infrastructure Specialist program (EC Utbildning)**. Covers Active Directory, Group Policy, PKI, file server security, firewall hardening, wireless authentication, and hybrid cloud networking.
+Hands-on Windows Server administration and security coursework covering Active Directory, Group Policy, PKI, file server security, firewall hardening, NPS/RADIUS, network segmentation, and hybrid Azure/on-premises networking in an isolated lab environment.
 
 ---
 
